@@ -1,4 +1,8 @@
 #include<stdio.h>
+/**
+ * main - main block
+ * Return: 0
+ */
 int main(){
 	int intType;
 	float floatType;
@@ -6,10 +10,10 @@ int main(){
 	long long int longlongInt;
 	char charType;
 
-	printf("Size of a char: %zu byte\n", sizeof(charType));
-	printf("Size of an int: %zu bytes\n", sizeof(intType));
-	printf("Size of a long int: %zu bytes\n", sizeof(longInt));
-	printf("Size of a long long int: %zu bytes\n", sizeof(longlongInt));
-	printf("Size of a float: %zu bytes\n", sizeof(floatType));
+	printf("Size of a char: %i byte(s)\n", sizeof(charType));
+	printf("Size of an int: %i byte(s)\n", sizeof(intType));
+	printf("Size of a long int: %i byte(s)\n", sizeof(longInt));
+	printf("Size of a long long int: %i byte(s)\n", sizeof(longlongInt));
+	printf("Size of a float: %i byte(s)\n", sizeof(floatType));
 	return(0);
 }
