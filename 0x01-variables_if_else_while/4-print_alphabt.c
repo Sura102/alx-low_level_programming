@@ -2,7 +2,7 @@
 /**
  * main - print all letters except q and e,
  * followed by a new line
- * Return = Success 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
